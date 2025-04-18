@@ -1,0 +1,144 @@
+Reset & Base
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #7d5ba0, #4172c8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card Design */
+.login-card {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+}
+
+.login-card:hover {
+  transform: scale(1.02);
+}
+
+/* Header */
+.card-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-size: 28px;
+  color: #6a11cb;
+  margin-bottom: 10px;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  color: #444;
+}
+
+/* Form Controls */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #9747ed;
+}
+
+/* Button */
+.btn-block {
+  width: 100%;
+  background-color: #0f9d4c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-block:hover {
+  background-color: #5011b7;
+}
+
+/* Toggle Button */
+.login-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #6a11cb;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  color: #5011b7;
+}
+
+/* Alerts */
+.alert {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.alert-danger {
+  background-color: #ffe0e0;
+  color: #b00020;
+}
+
+.alert-success {
+  background-color: #e6ffed;
+  color: #2e7d32;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+
+  .app-title {
+    font-size: 24px;
+  }
+
+  .card-header h2 {
+    font-size: 18px;
+  }
+}

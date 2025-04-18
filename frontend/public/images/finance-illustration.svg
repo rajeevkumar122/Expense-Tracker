@@ -1,0 +1,36 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="400" fill="#F5F7FA"/>
+  
+  <!-- Background elements -->
+  <circle cx="250" cy="200" r="150" fill="#E4EDF8"/>
+  
+  <!-- Chart bars -->
+  <rect x="150" y="250" width="30" height="70" rx="5" fill="#3498DB" opacity="0.9"/>
+  <rect x="190" y="220" width="30" height="100" rx="5" fill="#3498DB"/>
+  <rect x="230" y="180" width="30" height="140" rx="5" fill="#3498DB" opacity="0.8"/>
+  <rect x="270" y="200" width="30" height="120" rx="5" fill="#3498DB" opacity="0.7"/>
+  <rect x="310" y="230" width="30" height="90" rx="5" fill="#3498DB" opacity="0.6"/>
+  
+  <!-- Line graph -->
+  <path d="M150 150 L190 170 L230 130 L270 150 L310 120 L350 140" stroke="#2ECC71" stroke-width="3" fill="none"/>
+  <circle cx="150" cy="150" r="4" fill="#2ECC71"/>
+  <circle cx="190" cy="170" r="4" fill="#2ECC71"/>
+  <circle cx="230" cy="130" r="4" fill="#2ECC71"/>
+  <circle cx="270" cy="150" r="4" fill="#2ECC71"/>
+  <circle cx="310" cy="120" r="4" fill="#2ECC71"/>
+  <circle cx="350" cy="140" r="4" fill="#2ECC71"/>
+  
+  <!-- Dollar sign icon -->
+  <circle cx="250" cy="100" r="30" fill="#3498DB" opacity="0.2"/>
+  <path d="M250 80 L250 120" stroke="#2C3E50" stroke-width="3"/>
+  <path d="M245 85 C245 85, 242 85, 242 90 C242 95, 252 95, 252 100 C252 105, 248 110, 242 110" stroke="#2C3E50" stroke-width="3" fill="none"/>
+  
+  <!-- Device frame -->
+  <rect x="100" y="80" width="300" height="240" rx="10" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  <line x1="100" y1="120" x2="400" y2="120" stroke="#2C3E50" stroke-width="2"/>
+  
+  <!-- Abstract elements -->
+  <circle cx="120" cy="100" r="5" fill="#E74C3C"/>
+  <circle cx="140" cy="100" r="5" fill="#F1C40F"/>
+  <circle cx="160" cy="100" r="5" fill="#2ECC71"/>
+</svg> 

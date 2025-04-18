@@ -1,0 +1,78 @@
+.income {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.income h1 {
+  margin-bottom: 1.5rem;
+}
+
+.success-alert {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.error-alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.income-form-card {
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.income-tips {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.income-tips h3 {
+  color: #495057;
+  margin-bottom: 1rem;
+}
+
+.income-tips ul {
+  padding-left: 1.5rem;
+}
+
+.income-tips li {
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .form-actions {
+    flex-direction: column;
+  }
+}
